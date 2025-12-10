@@ -18,6 +18,5 @@ const Nbook = new Book(Nid, NTitle, NYear, NAuthor);
 let Books = [book1, book2, book3];
 Books.push(Nbook);
 
-document.getElementById("p").innerHTML = book1.N;
-
 console.log(Books);
+console.log(Books.length);
